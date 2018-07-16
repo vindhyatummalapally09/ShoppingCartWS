@@ -1,0 +1,51 @@
+﻿#{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+   
+}
+
+.container {
+    width: 1050px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+    #menu ul li {
+        background-color: black;
+        border: 1px solid white;
+        width: 150px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        position: relative;
+    }
+
+        #menu ul li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+            #menu ul li a:hover {
+                background-color: red;
+            }
+
+    #menu ul ul {
+        position: absolute;
+        display: none;
+    }
+
+    #menu ul li:hover > ul {
+        display: block;
+    }
+
+    #menu ul ul ul {
+        margin-left: 110px;
+        top: 0px;
+    }
